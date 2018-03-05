@@ -1,6 +1,8 @@
 Appendice 3. Procedure e convenzioni su GitHub
 ==============================================
 
+.. _sec-procedure-caricamento:
+
 Procedure di caricamento sul repository remoto
 ----------------------------------------------
 

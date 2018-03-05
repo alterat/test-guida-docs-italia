@@ -1,6 +1,9 @@
+.. _scrivere-un-documento:
+
 Scrivere un documento
 =====================
 
+.. _sec-sintassi:
 
 Il formato reStructuredText (RST)
 ---------------------------------
@@ -75,9 +78,9 @@ Per l’installazione del convertitore, puoi fare riferimento alla `pagina uffic
 Creazione di documenti in formato RST
 -------------------------------------
 
-Il primo aspetto rilevante per scrivere una documentazione efficace è `adottare il punto di vista degli utenti che la useranno <https://gdstechnology.blog.gov.uk/2016/10/28/writing-documentation-for-developers/>`__, in questo caso in particolare funzionari e tecnici della Pubblica Amministrazione e dei suoi fornitori. Scrivi il tuo testo seguendo i suggerimenti sulla struttura e sul linguaggio illustrati nella style guide in `Appendice <#appendice-2.-guida-di-stile>`__. Puoi includere nel tuo documento titoli, tabelle, immagini e link esterni, utilizzando la sintassi opportuna.
+Il primo aspetto rilevante per scrivere una documentazione efficace è `adottare il punto di vista degli utenti che la useranno <https://gdstechnology.blog.gov.uk/2016/10/28/writing-documentation-for-developers/>`__, in questo caso in particolare funzionari e tecnici della Pubblica Amministrazione e dei suoi fornitori. Scrivi il tuo testo seguendo i suggerimenti sulla struttura e sul linguaggio illustrati nella :ref:`guida di stile in appendice <appendice-2>`. Puoi includere nel tuo documento titoli, tabelle, immagini e link esterni, utilizzando la sintassi opportuna.
 
-Il contenuto del tuo testo può essere diviso in vari file .rst per facilitare l’organizzazione e la lettura. Tale divisione può avvenire tipicamente a livello di capitolo o di sezione (vedi anche `Struttura del repository <#struttura-del-repository>`__). Docs Italia combinerà insieme i file per creare l’intero documento, rispettando i link interni e la struttura.
+Il contenuto del tuo testo può essere diviso in vari file .rst per facilitare l’organizzazione e la lettura. Tale divisione può avvenire tipicamente a livello di capitolo o di sezione (vedi anche :ref:`Struttura del repository <sec-struttura>`). Docs Italia combinerà insieme i file per creare l’intero documento, rispettando i link interni e la struttura.
 
 +-----------------------------------------------------------------------------------------------+
 | **Nota.**                                                                                     |
@@ -142,6 +145,6 @@ La revisione del testo è necessaria perché la conversione automatica può pres
 
 Per correggere gli errori, è necessaria una **revisione manuale del file** utilizzando uno degli editor di documenti RST già presentati. Alcuni editor consentono di visualizzare un’anteprima automatica delle modifiche al testo (consulta la sezione `Editor di testo <#editor-di-testo>`__). Correggi uno a uno gli errori di formattazione che si presentano, assicurandoti di rispettare la `sintassi dei documenti .rst <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`__.
 
-Eliminati gli errori di sintassi, è necessario uniformare il documento allo `stile di Docs Italia <https://design-italia.readthedocs.io/it/stable/>`__. Consulta la `Guida di stile contenuta nell’Appendice 2 <#_9wmw4pl7p9dy>`__ per maggiori informazioni.
+Eliminati gli errori di sintassi, è necessario uniformare il documento allo `stile di Docs Italia <https://design-italia.readthedocs.io/it/stable/>`__. Consulta la :ref:`Guida di stile contenuta nell’Appendice 2 <appendice-2>` per maggiori informazioni.
 
 

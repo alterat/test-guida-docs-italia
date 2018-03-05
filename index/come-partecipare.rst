@@ -44,7 +44,10 @@ Avere un account di organizzazione non è obbligatorio per poter pubblicare i tu
 Conoscenza di base su Git
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Docs Italia usa il `version control system <https://it.wikipedia.org/wiki/Controllo_versione>`__ di `Git <https://git-scm.com/>`__, che permette di gestire le diverse versioni di un documento. La pubblicazione su Docs Italia richiede una conoscenza di base di Git e di alcuni termini collegati. Consulta il `Glossario minimo <#glossario-minimo>`__ in Appendice.
+Docs Italia usa il `version control system <https://it.wikipedia.org/wiki/Controllo_versione>`__ di `Git <https://git-scm.com/>`__, che permette di gestire le diverse versioni di un documento. La pubblicazione su Docs Italia richiede una conoscenza di base di Git e di alcuni termini collegati. Consulta il :ref:`Glossario minimo <sec-glossario>` in Appendice.
+
+
+.. sec-pubblicare:
 
 Come pubblicare un documento
 ----------------------------
@@ -75,7 +78,7 @@ L’Ente ha un’organizzazione su GitHub e la documentazione viene ospitata pre
 
 2. Gli amministratori di Docs Italia, effettuate le opportune verifiche, autorizzano l’organizzazione alla pubblicazione.
 
-3. Un amministratore dell’account organizzazione crea un apposito repository di configurazione (che serve a creare le pagine progetto e i documenti). `Maggiori informazioni sul repository di configurazione <#repository-di-configurazione>`__ sono disponibili nel capitolo dedicato alla pubblicazione. Un esempio di repository di configurazione si trova nello `Starter kit <#starter-kit>`__ fornito.
+3. Un amministratore dell’account organizzazione crea un apposito repository di configurazione (che serve a creare le pagine progetto e i documenti). :ref:`Maggiori informazioni sul repository di configurazione <sec-repo-config>` sono disponibili nel capitolo dedicato alla pubblicazione. Un esempio di repository di configurazione si trova nello :ref:`Starter kit <sec-starter-kit>` fornito.
 
 4. Un amministratore dell’account organizzazione crea un repository per il documento. Il nome del repository deve rispettare le `convenzioni sui nomi di Docs Italia <#nome-del-repository-del-documento>`__. Successivamente, l’utente può caricare i file secondo le modalità indicate nella sezione `Repository del documento <#repository-del-documento>`__. Un esempio completo di repository del documento è contenuto nello `Starter kit <#starter-kit>`__.
 
@@ -128,7 +131,7 @@ L’Ente non ha un’organizzazione su GitHub e la documentazione viene ospitata
 Nome del repository del documento
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Nel caso sia tua responsabilità creare il `repository del documento <#repository-del-documento>`__, scegli un nome con questo formato: **nomeprogetto-nomedocumento-docs**.
+Nel caso sia tua responsabilità creare il :ref:`repository del documento <sec-repo-doc>`, scegli un nome con questo formato: **nomeprogetto-nomedocumento-docs**.
 
 Per esempio, un documento dal titolo “Istruzioni per il cambio di residenza” all’interno del progetto ANPR potrebbe essere ospitato nel repository **anpr-cambioresidenza-docs**.
 
@@ -137,7 +140,9 @@ Il nome deve sempre finire con **-docs** per segnalare che il repository contien
 Passi successivi
 ~~~~~~~~~~~~~~~~
 
-Dopo aver creato i repository, è possibile caricare i file per generare la documentazione. Le procedure sono descritte nel capitolo `Pubblicare un documento <#pubblicare-un-documento>`__.
+Dopo aver creato i repository, è possibile caricare i file per generare la documentazione. Le procedure sono descritte nel capitolo :ref:`Pubblicare un documento <pubblicare-un-documento>`.
+
+.. _sec-amministratori:
 
 Amministratori di Docs Italia e assistenza
 ------------------------------------------

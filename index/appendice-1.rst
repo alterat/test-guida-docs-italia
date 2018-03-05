@@ -1,3 +1,5 @@
+.. _appendice-1:
+
 Appendice 1. Il versionamento
 =============================
 
@@ -7,6 +9,8 @@ Introduzione
 Il `version control <https://it.wikipedia.org/wiki/Controllo_versione>`__ o versionamento consente di tracciare i cambiamenti occorsi a un file o a un insieme di file. Permette, tra le altre cose, di riportare i file o l’intero progetto a uno stadio precedente, visualizzare le modifiche nel corso del tempo, sviluppare più linee di lavoro in parallelo e identificare gli autori delle modifiche.
 
 I sistemi di controllo versione sono usati abitualmente nei progetti di sviluppo software. Questi sistemi possono essere applicati anche alla documentazione: con un approccio di tipo “\ `docs as code <https://gdstechnology.blog.gov.uk/2017/08/25/why-we-use-a-docs-as-code-approach-for-technical-documentation/>`__\ ” (documentazione come codice), è possibile tracciare i cambiamenti puntuali dei vari file e definire delle versioni.
+
+.. _sec-glossario:
 
 Glossario minimo
 ----------------

@@ -1,9 +1,13 @@
+.. _pubblicare-un-documento:
+
 Pubblicare un documento
 =======================
 
 Dopo aver scritto la documentazione in formato RST, è possibile avviare la fase di pubblicazione.
 
 In questo capitolo vengono forniti alcuni chiarimenti sul repository di configurazione, sul repository del documento e sul backend di Docs Italia.
+
+.. _sec-repo-config:
 
 Repository di configurazione
 ----------------------------
@@ -16,13 +20,13 @@ Repository di configurazione
 
 Il repository di configurazione contiene le informazioni (metadati) relative al publisher, ai progetti e ai documenti correlati che appaiono in vari punti all’interno delle pagine su Docs Italia.
 
-Puoi modificare i file nel repository di configurazione presente nello Starter kit come descritto qui sotto. Successivamente, dovrai **caricare i file sul repository remoto** creato in precedenza (vedi `Come pubblicare un documento <#come-pubblicare-un-documento>`__) usando `una delle due procedure descritte in Appendice <#procedure-di-caricamento-sul-repository-remoto>`__.
+Puoi modificare i file nel repository di configurazione presente nello Starter kit come descritto qui sotto. Successivamente, dovrai **caricare i file sul repository remoto** creato in precedenza (vedi :ref:`Come pubblicare un documento <sec-pubblicare>`) usando :ref:`una delle due procedure descritte in Appendice <sec-procedure-caricamento>`.
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Esempio. Repository di configurazione di prova**                                                                                                                    |
-|                                                                                                                                                                       |
-| Lo `Starter kit <#starter-kit>`__ contiene un esempio di repository di configurazione. Consulta le istruzioni contenute nel kit per conoscere come modificare i file. |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Esempio. Repository di configurazione di prova**                                                                                                                          |
+|                                                                                                                                                                             |
+| Lo :ref:`Starter kit <sec-starter-kit>` contiene un esempio di repository di configurazione. Consulta le istruzioni contenute nel kit per conoscere come modificare i file. |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Contenuto del repository
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -37,7 +41,7 @@ In questi file vengono specificati, per esempio, quali progetti appartengono al 
 
 Oltre ai metadati liberamente modificabili, esiste un **set di tag tratti da un vocabolario controllato**, condiviso fra Docs Italia e Forum Italia. Tramite questi tag (almeno 5 per ciascun publisher o progetto) si stabilisce un collegamento fra i contenuti di Docs Italia e gli argomenti nel Forum, permettendo agli utenti di trovare più rapidamente quello che cercano.
 
-Le Tabelle 2 e 3 illustrano alcuni dei possibili metadati che è possibile specificare nei file di configurazione. Gli esempi associati mostrano come formattare i file di configurazione. Per maggiori informazioni è possibile consultare le istruzioni allegate allo `Starter kit <#starter-kit>`__.
+Le Tabelle 2 e 3 illustrano alcuni dei possibili metadati che è possibile specificare nei file di configurazione. Gli esempi associati mostrano come formattare i file di configurazione. Per maggiori informazioni è possibile consultare le istruzioni allegate allo :ref:`Starter kit <sec-starter-kit>`.
 
 Metadati del publisher
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -167,23 +171,24 @@ Metadati dei progetti
 +-----------------------------------------------------------------+
 
 
+.. sec-repo-doc:
 
 Repository del documento
 ------------------------
 
 Docs Italia genera automaticamente la pagina del documento e il relativo URL alla creazione del repository. **Se il repository del documento è vuoto, tuttavia, la pagina associata risulterà vuota** e verrà visualizzato il messaggio “Documento in fase di creazione”. La pagina del documento verrà creata automaticamente non appena l’utente caricherà nel repository tutti i file necessari alla compilazione, come descritto qui di seguito.
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Esempio. Repository del documento di prova**                                                                                                                    |
-|                                                                                                                                                                   |
-| Lo `Starter kit <#starter-kit>`__ contiene un esempio di repository del documento. Consulta le istruzioni contenute nel kit per conoscere come modificare i file. |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Esempio. Repository del documento di prova**                                                                                                                          |
+|                                                                                                                                                                         |
+| Lo :ref:`Starter kit <sec-starter-kit>` contiene un esempio di repository del documento. Consulta le istruzioni contenute nel kit per conoscere come modificare i file. |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Prima di pubblicare il documento su Docs Italia, l’utente deve:
 
 1. Modificare il file README.md, descrivendo il contenuto del repository;
 
-2. Modificare il file index.rst e la cartella \_docs, inserendo i file della documentazione;
+2. Modificare il file index.rst e la cartella _docs, inserendo i file della documentazione;
 
 3. Modificare il file conf.py con le informazioni sul documento;
 
@@ -193,10 +198,12 @@ Prima di pubblicare il documento su Docs Italia, l’utente deve:
 
 Consulta le sezioni seguenti per maggiori informazioni su come modificare questi file.
 
+.. sec-struttura:
+
 Struttura del repository
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Lo `Starter kit <#_j9gyyh2rj92t>`__ suggerisce l’uso di una struttura del repository del documento di questo tipo:
+Lo :ref:`Starter kit <sec-starter-kit>` suggerisce l’uso di una struttura del repository del documento di questo tipo:
 
 **Esempio. Struttura del repository**
 
@@ -226,7 +233,7 @@ Il repository dovrà comprendere, come requisito minimo:
 
 2. Un file **index.rst**, che corrisponderà alla pagina principale del sito della documentazione.
 
-3. Una cartella **\_docs**, che contiene tutti i file .rst ed eventuali immagini relativi alla documentazione.
+3. Una cartella **_docs**, che contiene tutti i file .rst ed eventuali immagini relativi alla documentazione.
 
 4. Un file **conf.py**, che specifica i metadati necessari alla compilazione della documentazione.
 
@@ -239,11 +246,11 @@ Il repository dovrà comprendere, come requisito minimo:
 File README.md
 ~~~~~~~~~~~~~~
 
-Il file README.md rappresenta la prima pagina che gli utenti vedono quando accedono a un repository su GitHub. Deve fornire le informazioni sul contenuto del repository stesso e viene redatto usando la `sintassi Markdown <https://guides.github.com/features/mastering-markdown/>`__, che differisce dal formato RST discusso in precedenza. Puoi consultare l’esempio contenuto nello `Starter kit <#_j9gyyh2rj92t>`__.
+Il file README.md rappresenta la prima pagina che gli utenti vedono quando accedono a un repository su GitHub. Deve fornire le informazioni sul contenuto del repository stesso e viene redatto usando la `sintassi Markdown <https://guides.github.com/features/mastering-markdown/>`__, che differisce dal formato RST discusso in precedenza. Puoi consultare l’esempio contenuto nello :ref:`Starter kit <sec-starter-kit>`.
 
 Il file README.md comincia con un titolo con il seguente formato:
 
-# Nome_Progetto, Nome_Documento
+:code:`# Nome_Progetto, Nome_Documento`
 
 Il segno # indica un titolo e Nome_Documento (obbligatorio) serve a distinguere diversi documenti relativi, per esempio, ad aspetti diversi di uno stesso progetto.
 
@@ -260,7 +267,7 @@ Il file index.rst corrisponde alla **home page del documento** e serve ad almeno
 
 3. Visualizzare un indice di tutte le pagine contenute.
 
-Per i primi due punti, la stesura deve seguire le considerazioni fatte in precedenza sulla `sintassi RST <#il-formato-restructuredtext-rst>`__.
+Per i primi due punti, la stesura deve seguire le considerazioni fatte in precedenza sulla :ref:`sintassi RST <sec-sintassi>`.
 
 Per quanto riguarda il terzo punto, invece, l’inclusione delle pagine nel documento avviene tramite la `direttiva toctree <http://www.sphinx-doc.org/en/stable/markup/toctree.html>`__\ *.* Prendendo ad esempio la `struttura del repository illustrata in precedenza <#struttura-del-repository>`__, un possibile index.rst viene costruito come di seguito.
 
@@ -283,33 +290,33 @@ Per quanto riguarda il terzo punto, invece, l’inclusione delle pagine nel docu
 |       ...                           |
 +-------------------------------------+
 
-Cartella \_docs
-~~~~~~~~~~~~~~~
+Cartella _docs
+~~~~~~~~~~~~~~
 
-Questa cartella contiene i file della documentazione creati come indicato nel capitolo `Scrivere un documento <#scrivere-un-documento>`__. Ciascun file contenuto nella cartella verrà convertito in una pagina a sé stante, e collegato alla pagina principale tramite la direttiva *toctree* illustrata nella sezione precedente.
+Questa cartella contiene i file della documentazione creati come indicato nel capitolo :ref:`Scrivere un documento <scrivere-un-documento>`. Ciascun file contenuto nella cartella verrà convertito in una pagina a sé stante, e collegato alla pagina principale tramite la direttiva *toctree* illustrata nella sezione precedente.
 
 File conf.py
 ~~~~~~~~~~~~
 
 Questo file è presente in ogni repository del documento e costituisce il principale script da modificare per personalizzare il documento. I parametri che tipicamente l’utente deve modificare sono contenuti nella seguente tabella.
 
-Tabella 4. Parametri del file conf.py.
+.. table:: Parametri del file conf.py.
 
-+---------------+----------------------------------------------------------------+
-| **Parametro** | **Descrizione**                                                |
-+===============+================================================================+
-| project       | Il nome del documento                                          |
-+---------------+----------------------------------------------------------------+
-| copyright     | Il tipo di copyright                                           |
-+---------------+----------------------------------------------------------------+
-| version       | La versione ridotta del documento                              |
-+---------------+----------------------------------------------------------------+
-| release       | La versione completa del documento (incluso *alfa, beta*, ecc) |
-+---------------+----------------------------------------------------------------+
-| language      | La lingua del documento                                        |
-+---------------+----------------------------------------------------------------+
+   +---------------+----------------------------------------------------------------+
+   | **Parametro** | **Descrizione**                                                |
+   +===============+================================================================+
+   | project       | Il nome del documento                                          |
+   +---------------+----------------------------------------------------------------+
+   | copyright     | Il tipo di copyright                                           |
+   +---------------+----------------------------------------------------------------+
+   | version       | La versione ridotta del documento                              |
+   +---------------+----------------------------------------------------------------+
+   | release       | La versione completa del documento (incluso *alfa, beta*, ecc) |
+   +---------------+----------------------------------------------------------------+
+   | language      | La lingua del documento                                        |
+   +---------------+----------------------------------------------------------------+
 
-Un esempio completo di file conf.py è contenuto nel repository del documento all’interno dello `Starter kit <#starter-kit>`__.
+Un esempio completo di file conf.py è contenuto nel repository del documento all’interno dello :ref:`Starter kit <sec-starter-kit>`.
 
 File LICENSE e AUTHORS
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -338,7 +345,7 @@ Il file document_settings.yml specifica i **metadati associati al documento**, i
 
 I metadati facilitano la ricerca delle informazioni da parte degli utenti. In particolare, anche per i documenti è previsto l’uso di **tag tratti da un vocabolario controllato** per permettere l’integrazione fra Docs Italia e il Forum (vedi anche `Repository di configurazione <#repository-di-configurazione>`__).
 
-La :numref:`Tabella %s <meta-doc>` mostra un elenco dei possibili metadati e una loro descrizione. L’esempio successivo mostra il file *document_settings.yml* contenuto nello `Starter kit <#starter-kit>`__.
+La :numref:`Tabella %s <meta-doc>` mostra un elenco dei possibili metadati e una loro descrizione. L’esempio successivo mostra il file *document_settings.yml* contenuto nello :ref:`Starter kit <sec-starter-kit>`.
 
 .. _meta-doc:
 
@@ -441,14 +448,14 @@ sostituendo :code:`<topic-id>` con il codice opportuno.
 |    :topic_identifier: 1234                        |
 +---------------------------------------------------+
 
-Ripetendo questa procedura, è possibile collegare ciascuna pagina del documento con il corrispondente argomento sul Forum. In caso di problemi, è possibile `contattare gli amministratori di Docs Italia <#amministratori-di-docs-italia-e-assistenza>`__.
+Ripetendo questa procedura, è possibile collegare ciascuna pagina del documento con il corrispondente argomento sul Forum. In caso di problemi, è possibile :ref:`contattare gli amministratori di Docs Italia <sec-amministratori>`.
 
 Caricare i file sul repository remoto
 -------------------------------------
 
-Tutti i file necessari alla creazione del documento su Docs Italia devono essere caricati nel repository del documento remoto, in modo che Docs Italia possa aggiornare la pagina del documento, `attualmente vuota <#_9olvs463oysi>`__. Ogni documento su Docs Italia viene aggiornato automaticamente ogni qual volta viene effettuata una modifica al repository di configurazione o del documento.
+Tutti i file necessari alla creazione del documento su Docs Italia devono essere caricati nel repository del documento remoto, in modo che Docs Italia possa aggiornare la pagina del documento, attualmente vuota. Ogni documento su Docs Italia viene aggiornato automaticamente ogni qual volta viene effettuata una modifica al repository di configurazione o del documento.
 
-Le `procedure da utilizzare <#procedure-di-caricamento-sul-repository-remoto>`__ per caricare i file sono descritte in Appendice.
+Le :ref:`procedure da utilizzare <sec-procedure-caricamento>` per caricare i file sono descritte in Appendice.
 
 Backend di Docs Italia
 ----------------------
@@ -478,11 +485,11 @@ Dal backend sarà possibile accedere ad alcuni widget relativi al publisher, ai 
 Nome del documento
 ~~~~~~~~~~~~~~~~~~
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Nota.**                                                                                                                                                                                                       |
-|                                                                                                                                                                                                                 |
-| Le istruzioni contenute in questa sezione sono valide finché non entrerà in vigore il nuovo formato per gli URL presentato nella sezione `Stiamo lavorando alle seguenti funzionalità <#nuove-funzionalità>`__. |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Nota.**                                                                                                                                                                                    |
+|                                                                                                                                                                                              |
+| Le istruzioni contenute in questa sezione sono valide finché non entrerà in vigore il nuovo formato per gli URL presentato nella sezione :ref:`Nuove funzionalità <sec-nuove-funzionalita>`. |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Nel backend di Docs Italia, è possibile impostare il nome che appare nell’URL del documento. Scegli lo stesso nome utilizzato per il nome del repository del documento, senza la parte finale **-docs**.
 

@@ -1,3 +1,5 @@
+.. _appendice-2:
+
 Appendice 2. Guida di stile
 ===========================
 

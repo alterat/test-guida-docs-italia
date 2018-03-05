@@ -52,11 +52,11 @@ Dopo la pubblicazione, sono necessarie alcune operazioni per **mantenere i docum
 Modifiche alla documentazione
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Qualsiasi modifica alla documentazione avviene modificando i file all’interno del repository GitHub. La procedura è identica a quella descritta nella sezione `Caricare i file sul repo <#_7dw9rr6ypvdv>`__. Una modifica alla documentazione effettuata tramite un commit sul repository genererà automaticamente la documentazione aggiornata su Docs Italia.
+Qualsiasi modifica alla documentazione avviene modificando i file all’interno del repository GitHub. La :ref:`procedura <sec-procedure-caricamento>` è descritta in appendice. Una modifica alla documentazione effettuata tramite un commit sul repository genererà automaticamente la documentazione aggiornata su Docs Italia.
 
 **È buona pratica rivedere il contenuto dei testi con scadenza periodica**, in modo da evitare che le informazioni diventino obsolete o addirittura errate.
 
-Le modifiche sostanziali alla documentazione, a seguito per esempio di un cambiamento nella legislazione o nel software di riferimento, devono essere associate a una versione differente (vedi l’\ `Appendice <#appendice-1.-il-versionamento>`__ sul versionamento).
+Le modifiche sostanziali alla documentazione, a seguito per esempio di un cambiamento nella legislazione o nel software di riferimento, devono essere associate a una versione differente (vedi l’:ref:`appendice <appendice-1>` sul versionamento).
 
 Issues e pull requests
 ~~~~~~~~~~~~~~~~~~~~~~

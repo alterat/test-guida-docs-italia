@@ -42,6 +42,8 @@ Docs Italia si ispira a cinque principi, funzionali a costruire un linguaggio co
 5. il quinto è che i documenti vengono fruiti sempre più spesso su Internet, e in particolare su smartphone: la semplicità di lettura fa la differenza.
 
 
+.. _sec-nuove-funzionalita:
+
 Nuove funzionalità
 ~~~~~~~~~~~~~~~~~~
 

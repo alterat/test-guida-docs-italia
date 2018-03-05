@@ -1,3 +1,5 @@
+.. _sec-starter-kit:
+
 Starter kit
 ===========
 
