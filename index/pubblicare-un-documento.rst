@@ -12,11 +12,10 @@ In questo capitolo vengono forniti alcuni chiarimenti sul repository di configur
 Repository di configurazione
 ----------------------------
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Nota.**                                                                                                                                                                                                                                              |
-|                                                                                                                                                                                                                                                        |
-| Questa sezione è riservata ai publisher che pubblicano documenti tramite la propria organizzazione. Se utilizzi un account utente, invece, le operazioni descritte qui verranno effettuate per tuo conto da parte degli amministratori di Docs Italia. |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+.. note:: 
+
+   Questa sezione è riservata ai publisher che pubblicano documenti tramite la propria organizzazione. Se utilizzi un account utente, invece, le operazioni descritte qui verranno effettuate per tuo conto da parte degli amministratori di Docs Italia.
+
 
 Il repository di configurazione contiene le informazioni (metadati) relative al publisher, ai progetti e ai documenti correlati che appaiono in vari punti all’interno delle pagine su Docs Italia.
 
@@ -472,11 +471,10 @@ L’utente può accedere al backend di Docs Italia con il proprio account GitHub
 
    Il backend di Docs Italia per gestire un documento. 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Nota.**                                                                                                                                                                                                                           |
-|                                                                                                                                                                                                                                     |
-| Al primo accesso, l’utente deve autorizzare a sua volta la piattaforma a interagire con la propria organizzazione GitHub: tale operazione è necessaria per consentire l’aggiornamento del documento a ogni modifica del repository. |
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+.. note::
+
+   Al primo accesso, l’utente deve autorizzare a sua volta la piattaforma a interagire con la propria organizzazione GitHub: tale operazione è necessaria per consentire l’aggiornamento del documento a ogni modifica del repository.
+
 
 Il backend permette di modificare le impostazioni avanzate, come l’attivazione o meno di determinate versioni di un documento o l’aggiornamento manuale delle pagine. Da qui, l’utente potrà gestire tutti i documenti corrispondenti ai repository di una determinata organizzazione per i quali ha i permessi di scrittura.
 
@@ -485,11 +483,10 @@ Dal backend sarà possibile accedere ad alcuni widget relativi al publisher, ai 
 Nome del documento
 ~~~~~~~~~~~~~~~~~~
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Nota.**                                                                                                                                                                                    |
-|                                                                                                                                                                                              |
-| Le istruzioni contenute in questa sezione sono valide finché non entrerà in vigore il nuovo formato per gli URL presentato nella sezione :ref:`Nuove funzionalità <sec-nuove-funzionalita>`. |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+.. note::
+
+   Le istruzioni contenute in questa sezione sono valide finché non entrerà in vigore il nuovo formato per gli URL presentato nella sezione :ref:`Nuove funzionalità <sec-nuove-funzionalita>`.
+
 
 Nel backend di Docs Italia, è possibile impostare il nome che appare nell’URL del documento. Scegli lo stesso nome utilizzato per il nome del repository del documento, senza la parte finale **-docs**.
 

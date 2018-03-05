@@ -108,11 +108,10 @@ L’Ente non ha un’organizzazione su GitHub e la documentazione viene ospitata
 
 4. Gli amministratori di Docs Italia creano un repository per il documento e concedono all’utente i privilegi di scrittura.
 
-+-----------------------------------------------------------------------------------------------------------------+
-| **Nota.**                                                                                                       |
-|                                                                                                                 |
-| Per l’account utente, tale procedura dovrà essere ripetuta per ciascun nuovo documento inserito su Docs Italia. |
-+-----------------------------------------------------------------------------------------------------------------+
+
+.. note::
+   
+   Per l’account utente, tale procedura dovrà essere ripetuta per ciascun nuovo documento inserito su Docs Italia. 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Esempio. Processo di autorizzazione per utenti GitHub**                                                                                                                                                                                                        |

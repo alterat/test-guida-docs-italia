@@ -82,11 +82,11 @@ Il primo aspetto rilevante per scrivere una documentazione efficace è `adottare
 
 Il contenuto del tuo testo può essere diviso in vari file .rst per facilitare l’organizzazione e la lettura. Tale divisione può avvenire tipicamente a livello di capitolo o di sezione (vedi anche :ref:`Struttura del repository <sec-struttura>`). Docs Italia combinerà insieme i file per creare l’intero documento, rispettando i link interni e la struttura.
 
-+-----------------------------------------------------------------------------------------------+
-| **Nota.**                                                                                     |
-|                                                                                               |
-| File separati diventeranno pagine HTML separate, facilitando la lettura da parte dell’utente. |
-+-----------------------------------------------------------------------------------------------+
+
+.. note:: 
+
+   File separati diventeranno pagine HTML separate, facilitando la lettura da parte dell’utente.
+
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Procedura.**                                                                                                                                                                  |
@@ -107,13 +107,12 @@ Conversione con pandoc
 
 Lo strumento di conversione principale verso RST è `pandoc <https://pandoc.org/>`__, uno strumento gratuito open-source.
 
-+---------------------------------------------------------------------+
-| **Nota.**                                                           |
-|                                                                     |
-| -  pandoc accetta documenti in formato DOCX, ma non in formato DOC. |
-|                                                                     |
-| -  pandoc non accetta documenti in formato PDF.                     |
-+---------------------------------------------------------------------+
+.. note:: 
+
+   -  pandoc accetta documenti in formato DOCX, ma non in formato DOC.
+   
+   -  pandoc non accetta documenti in formato PDF.                  
+
 
 +-----------------------------------------------------------------------------------------+
 | **Procedura. Conversione di un documento**                                              |
