@@ -1,3 +1,7 @@
+###################
+Guida a Docs Italia
+###################
+
 Che cos’è Docs Italia
 =====================
 
@@ -56,9 +60,7 @@ Nuove funzionalità
 
 -  Attualmente è in corso di analisi lo sviluppo di una componente per `LibreOffice <https://www.libreoffice.org/>`__ che permetta l’esportazione e l’importazione di documenti in formato RST.
 
--  Docs Italia sarà ospitata all’URL `docs.italia.it <http://docs.italia.it>`__. Ciascun documento sarà raggiungibile all’indirizzo:
-
-docs.italia.it/<publisher>/<progetto>/<nome-documento>.
+-  Docs Italia sarà ospitata all’URL `docs.italia.it <http://docs.italia.it>`__. Ciascun documento sarà raggiungibile all’indirizzo: `docs.italia.it/<publisher>/<progetto>/<nome-documento>`.
 
 La `roadmap di Docs Italia <https://trello.com/b/jQUgRzRe/docs-italiasviluppo>`__ è disponibile online, espressa attraverso una board di Trello.
 
@@ -320,21 +322,22 @@ Tabella 1. Confronto fra testo RST e testo interpretato.
 +=================================+=============================+
 | .. code-block:: rst             |                             |
 |                                 |                             |
-|    \***********************\*   | **Il titolo del documento** |
+|    ***********************      | **Il titolo del documento** |
+|    Il titolo del documento      |                             |
+|    ***********************      | Lorem ipsum...              |
 |                                 |                             |
-|    Il titolo del documento      | Lorem ipsum…                |
+|    Lorem ipsum...               |                             |
 |                                 |                             |
-|    \***********************\*   | **Una sezione**             |
-|                                 |                             |
-|    Lorem ipsum…                 | Una frase **in grassetto**. |
-|                                 |                             |
-|    Una sezione                  | Una frase *in corsivo*.     |
-|                                 |                             |
+|    Una sezione                  | **Una sezione**             |
 |    ==============               |                             |
+|                                 | Una frase **in grassetto**. |
+|    Una frase **in grassetto**.  |                             |
+|                                 | Una frase *in corsivo*.     |
+|    Una frase *in corsivo*.      |                             |
 |                                 |                             |
-|    Una frase \**in grassetto**. |                             |
 |                                 |                             |
-|    Una frase \*in corsivo*.     |                             |
+|                                 |                             |
+|                                 |                             |
 +---------------------------------+-----------------------------+
 
 Strumenti utili
@@ -422,11 +425,11 @@ Lo strumento di conversione principale verso RST è `pandoc <https://pandoc.org/
 |                                                                                         |
 |    -  Scegli il nome del file e clicca su Save.                                         |
 |                                                                                         |
-| -  Da linea di comando, esegui                                                          |
+| -  Da linea di comando, esegui:                                                         |
 |                                                                                         |
-| pandoc <percorso/documento> -t rst -o output.rst                                        |
+|    :code:`pandoc <percorso/documento> -t rst -o output.rst`                             |
 |                                                                                         |
-| dove <percorso/documento> è il percorso al documento in formato DOCX.                   |
+|    dove :code:`<percorso/documento>` è il percorso al documento in formato DOCX.        |
 |                                                                                         |
 | -  Controlla la conversione automatica ed esegui una revisione manuale del testo        |
 +-----------------------------------------------------------------------------------------+
@@ -514,54 +517,35 @@ Tabella 2. Alcuni dei metadati associati al publisher.
 +-------------------------------------------------------------------+
 | **Esempio. File publisher_settings.yml tratto dallo Starter kit** |
 |                                                                   |
-| publisher:                                                        |
+| .. code-block:: yml                                               |
 |                                                                   |
-| name: Ministero della Documentazione Pubblica                     |
+|    publisher:                                                     |
+|      name: Ministero della Documentazione Pubblica                |
+|      short-name: Min. Doc. Pub.                                   |
+|      description:   |                                             |
+|        Lorem ipsum dolor sit amet, consectetur                    |
+|        adipisicing elit, sed do eiusmod tempor                    |
+|        incididunt ut labore et dolore magna aliqua.               |
+|        Ut enim ad minim veniam, quis nostrud                      |
+|        exercitation ullamco laboris nisi ut                       |
+|        aliquip ex ea commodo consequat.                           |
+|        Duis aute irure dolor in reprehenderit in                  |
+|        voluptate velit esse cillum dolore eu                      |
+|        fugiat nulla pariatur. Excepteur sint                      |
+|        occaecat cupidatat non proident, sunt in                   |
+|        culpa qui officia deserunt mollit anim id                  |
+|        est laborum.                                               |
+|      website: www.ministerodocumentazione.gov.it                  |
+|      github_organization_url: github.com/organization_name        |
+|      tags:                                                        |
+|        - documents                                                |
+|        - public                                                   |
+|        - amazing publisher                                        |
+|      assets:                                                      |
+|        logo: assets/images/logo.svg                               |
 |                                                                   |
-| short-name: Min. Doc. Pub.                                        |
-|                                                                   |
-| description: \|                                                   |
-|                                                                   |
-| Lorem ipsum dolor sit amet, consectetur                           |
-|                                                                   |
-| adipisicing elit, sed do eiusmod tempor                           |
-|                                                                   |
-| incididunt ut labore et dolore magna aliqua.                      |
-|                                                                   |
-| Ut enim ad minim veniam, quis nostrud                             |
-|                                                                   |
-| exercitation ullamco laboris nisi ut                              |
-|                                                                   |
-| aliquip ex ea commodo consequat.                                  |
-|                                                                   |
-| Duis aute irure dolor in reprehenderit in                         |
-|                                                                   |
-| voluptate velit esse cillum dolore eu                             |
-|                                                                   |
-| fugiat nulla pariatur. Excepteur sint                             |
-|                                                                   |
-| occaecat cupidatat non proident, sunt in                          |
-|                                                                   |
-| culpa qui officia deserunt mollit anim id                         |
-|                                                                   |
-| est laborum.                                                      |
-|                                                                   |
-| website: www.ministerodocumentazione.gov.it                       |
-|                                                                   |
-| github_organization_url: github.com/organization_name             |
-|                                                                   |
-| tags:                                                             |
-|                                                                   |
-| - documents                                                       |
-|                                                                   |
-| - public                                                          |
-|                                                                   |
-| - amazing publisher                                               |
-|                                                                   |
-| assets:                                                           |
-|                                                                   |
-| logo: assets/images/logo.svg                                      |
 +-------------------------------------------------------------------+
+
 
 Metadati dei progetti
 ~~~~~~~~~~~~~~~~~~~~~
@@ -597,58 +581,38 @@ Tabella 3. Alcuni dei metadati associati a ciascun progetto.
 +-----------------------------------------------------------------+
 | **Esempio. File projects_setting.yml tratto dallo Starter kit** |
 |                                                                 |
-| projects:                                                       |
+| .. code-block:: yml                                             |
 |                                                                 |
-| - title: Progetto Documentato Pubblicamente                     |
+|    projects:                                                    |
+|      - title: Progetto Documentato Pubblicamente                |
+|        short-name: PDP                                          |
+|        description: |                                           |
+|          Lorem ipsum dolor sit amet, consectetur                |
+|          adipisicing elit, sed do eiusmod tempor                |
+|          incididunt ut labore et dolore magna aliqua.           |
+|          Ut enim ad minim veniam, quis nostrud                  |
+|          exercitation ullamco laboris nisi ut                   |
+|          aliquip ex ea commodo consequat.                       |
+|          Duis aute irure dolor in reprehenderit in              |
+|          voluptate velit esse cillum dolore eu                  |
+|          fugiat nulla pariatur. Excepteur sint                  |
+|          occaecat cupidatat non proident, sunt in               |
+|          culpa qui officia deserunt mollit anim id              |
+|          est laborum.                                           |
+|        website: progetto.ministerodocumentazione.gov.it         |
+|        tags:                                                    |
+|          - digital                                              |
+|          - citizenship                                          |
+|          - amazing project                                      |
+|        documents:                                               |
+|          - title: Documento del progetto                        |
+|            repository: project-document-doc                     |
+|          - title: Un altro documento del progetto               |
+|            repository: another-project-document-doc             |
 |                                                                 |
-| short-name: PDP                                                 |
-|                                                                 |
-| description: \|                                                 |
-|                                                                 |
-| Lorem ipsum dolor sit amet, consectetur                         |
-|                                                                 |
-| adipisicing elit, sed do eiusmod tempor                         |
-|                                                                 |
-| incididunt ut labore et dolore magna aliqua.                    |
-|                                                                 |
-| Ut enim ad minim veniam, quis nostrud                           |
-|                                                                 |
-| exercitation ullamco laboris nisi ut                            |
-|                                                                 |
-| aliquip ex ea commodo consequat.                                |
-|                                                                 |
-| Duis aute irure dolor in reprehenderit in                       |
-|                                                                 |
-| voluptate velit esse cillum dolore eu                           |
-|                                                                 |
-| fugiat nulla pariatur. Excepteur sint                           |
-|                                                                 |
-| occaecat cupidatat non proident, sunt in                        |
-|                                                                 |
-| culpa qui officia deserunt mollit anim id                       |
-|                                                                 |
-| est laborum.                                                    |
-|                                                                 |
-| website: progetto.ministerodocumentazione.gov.it                |
-|                                                                 |
-| tags:                                                           |
-|                                                                 |
-| - digital                                                       |
-|                                                                 |
-| - citizenship                                                   |
-|                                                                 |
-| - amazing project                                               |
-|                                                                 |
-| documents:                                                      |
-|                                                                 |
-| - title: Documento del progetto                                 |
-|                                                                 |
-| repository: project-document-doc                                |
-|                                                                 |
-| - title: Un altro documento del progetto                        |
-|                                                                 |
-| repository: another-project-document-doc                        |
 +-----------------------------------------------------------------+
+
+
 
 Repository del documento
 ------------------------
@@ -680,41 +644,27 @@ Struttura del repository
 
 Lo `Starter kit <#_j9gyyh2rj92t>`__ suggerisce l’uso di una struttura del repository del documento di questo tipo:
 
-+---------------------------------------+
-| **Esempio. Struttura del repository** |
-|                                       |
-| .                                     |
-|                                       |
-| +-- README.md                         |
-|                                       |
-| +-- index.rst                         |
-|                                       |
-| +-- \_docs/                           |
-|                                       |
-| \| +-- \_img/                         |
-|                                       |
-| \| \| +-- cap1_img1.jpg               |
-|                                       |
-| \| \| +-- cap2_img1.jpg               |
-|                                       |
-| \| \| ...                             |
-|                                       |
-| \| +-- cap1.rst                       |
-|                                       |
-| \| +-- cap2.rst                       |
-|                                       |
-| \| …                                  |
-|                                       |
-| +-- conf.py                           |
-|                                       |
-| +-- LICENSE                           |
-|                                       |
-| +-- AUTHORS                           |
-|                                       |
-| +-- requirements.txt                  |
-|                                       |
-| +-- document_settings.yml             |
-+---------------------------------------+
+**Esempio. Struttura del repository**
+
+.. code-block:: yml                     
+                                        
+   .                                    
+   +-- README.md                        
+   +-- index.rst                        
+   +-- _docs/                           
+   | +-- _img/                          
+   | | +-- cap1_img1.jpg                
+   | | +-- cap2_img1.jpg                
+   | | ...                              
+   | +-- cap1.rst                       
+   | +-- cap2.rst                       
+   | …                                  
+   +-- conf.py                          
+   +-- LICENSE                          
+   +-- AUTHORS                          
+   +-- requirements.txt                 
+   +-- document_settings.yml            
+
 
 Il repository dovrà comprendere, come requisito minimo:
 
@@ -871,44 +821,31 @@ Tabella 5. Alcuni dei metadati associati a ciascun documento.
 +------------------------------------------------------------------+
 | **Esempio. File document_settings.yml tratto dallo Starter kit** |
 |                                                                  |
-| document:                                                        |
 |                                                                  |
-| name: Titolo del documento                                       |
+| .. code-block:: yml                                              |
 |                                                                  |
-| description: \|                                                  |
+|    document:                                                     |
+|      name: Titolo del documento                                  |
+|      description: |                                              |
+|        Lorem ipsum dolor sit amet, consectetur                   |
+|        adipisicing elit, sed do eiusmod tempor                   |
+|        incididunt ut labore et dolore magna aliqua.              |
+|        Ut enim ad minim veniam, quis nostrud                     |
+|        exercitation ullamco laboris nisi ut                      |
+|        aliquip ex ea commodo consequat.                          |
+|        Duis aute irure dolor in reprehenderit in                 |
+|        voluptate velit esse cillum dolore eu                     |
+|        fugiat nulla pariatur. Excepteur sint                     |
+|        occaecat cupidatat non proident, sunt in                  |
+|        culpa qui officia deserunt mollit anim id                 |
+|        est laborum.                                              |
+|      tags:                                                       |
+|        - topic                                                   |
+|        - related topic                                           |
+|        - amazing project                                         |
 |                                                                  |
-| Lorem ipsum dolor sit amet, consectetur                          |
-|                                                                  |
-| adipisicing elit, sed do eiusmod tempor                          |
-|                                                                  |
-| incididunt ut labore et dolore magna aliqua.                     |
-|                                                                  |
-| Ut enim ad minim veniam, quis nostrud                            |
-|                                                                  |
-| exercitation ullamco laboris nisi ut                             |
-|                                                                  |
-| aliquip ex ea commodo consequat.                                 |
-|                                                                  |
-| Duis aute irure dolor in reprehenderit in                        |
-|                                                                  |
-| voluptate velit esse cillum dolore eu                            |
-|                                                                  |
-| fugiat nulla pariatur. Excepteur sint                            |
-|                                                                  |
-| occaecat cupidatat non proident, sunt in                         |
-|                                                                  |
-| culpa qui officia deserunt mollit anim id                        |
-|                                                                  |
-| est laborum.                                                     |
-|                                                                  |
-| tags:                                                            |
-|                                                                  |
-| - topic                                                          |
-|                                                                  |
-| - related topic                                                  |
-|                                                                  |
-| - amazing project                                                |
 +------------------------------------------------------------------+
+
 
 Funzione commenti con Forum Italia
 ----------------------------------
@@ -1275,15 +1212,17 @@ Codice
 
 Il codice deve essere visualizzato con carattere *monospace*. Per poter visualizzare il codice con tale formattazione, indipendentemente dal template, è necessario usare il ruolo :code: inserendo il codice tra due apici obliqui.
 
-+----------------------------------------------------------------+
-| **Esempio. Formattazione del codice**                          |
-|                                                                |
-| :code:`<aux digit (1n)>[<application code> (2n)]<codice IUV>\` |
-|                                                                |
-| **Esempio. Codice reso nel testo**                             |
-|                                                                |
-| <aux digit (1n)>[<application code> (2n)]<codice IUV>          |
-+----------------------------------------------------------------+
++-------------------------------------------------------------------+
+| **Esempio. Formattazione del codice**                             |
+|                                                                   |
+| .. code-block:: rst                                               |
+|                                                                   |
+|    :code:`<aux digit (1n)>[<application code> (2n)]<codice IUV>\` |
+|                                                                   |
+| **Esempio. Codice reso nel testo**                                |
+|                                                                   |
+| :code:`<aux digit (1n)>[<application code> (2n)]<codice IUV>`     |
++-------------------------------------------------------------------+
 
 Note
 ~~~~
