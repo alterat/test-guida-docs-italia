@@ -115,15 +115,15 @@ La tabella deve essere preceduta da una didascalia centrata che ne descriva il c
 
 Le tabelle devono essere numerate in maniera progressiva. Per la numerazione, si può utilizzare l'auto numerazione già presente nel template di Docs Italia. La numerazione manuale è fortemente sconsigliata in quanto introduce un elemento di possibile incoerenza nel documento che si sta scrivendo o che si modificherà in futuro.
 
-Tabella 6. Esempio di tabella in Docs Italia.
+.. table:: Esempio di tabella in Docs Italia.
 
-+-------------------------+-------------------------+-------------------------+-------------------------+
-|                         | **Intestazione col. 1** | **Intestazione col. 2** | **Intestazione col. 3** |
-+=========================+=========================+=========================+=========================+
-| **Intestazione riga 1** | Testo                   | Testo                   | Testo                   |
-+-------------------------+-------------------------+-------------------------+-------------------------+
-| **Intestazione riga 2** | Testo                   | Testo                   | Testo                   |
-+-------------------------+-------------------------+-------------------------+-------------------------+
+   +-------------------------+-------------------------+-------------------------+-------------------------+
+   |                         | **Intestazione col. 1** | **Intestazione col. 2** | **Intestazione col. 3** |
+   +=========================+=========================+=========================+=========================+
+   | **Intestazione riga 1** | Testo                   | Testo                   | Testo                   |
+   +-------------------------+-------------------------+-------------------------+-------------------------+
+   | **Intestazione riga 2** | Testo                   | Testo                   | Testo                   |
+   +-------------------------+-------------------------+-------------------------+-------------------------+
 
 Figure e immagini
 ~~~~~~~~~~~~~~~~~
@@ -133,9 +133,11 @@ Tutte le figure e le immagini devono essere seguite da opportune didascalie, cen
 +----------------------------------------------------------+
 | **Esempio di figure / immagini in Docs Italia**          |
 |                                                          |
-| |image12|                                                |
+| .. figure:: img/logo.png                                 |
+|    :width: 6.11458in                                     |
+|    :height: 1.31944in                                    |
 |                                                          |
-| Figura 12. Logo del Team per la Trasformazione Digitale. |
+|    Logo del Team per la Trasformazione Digitale.         |
 +----------------------------------------------------------+
 
 Titoli

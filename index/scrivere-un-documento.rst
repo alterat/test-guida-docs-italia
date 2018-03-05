@@ -7,32 +7,34 @@ Il formato reStructuredText (RST)
 
 I testi di partenza per la pubblicazione su Docs Italia devono essere in `formato reStructuredText <https://it.wikipedia.org/wiki/ReStructuredText>`__ (di seguito anche .rst o RST). Si tratta di file di testo redatti secondo `specifiche regole sintattiche <http://docutils.sourceforge.net/rst.html>`__. La formattazione è ottenuta tramite speciali combinazioni di caratteri, che vengono interpretate da Docs Italia durante la creazione delle pagine.
 
-L’esempio nella Tabella 1 illustra come è possibile indicare il titolo del documento e una sezione, nonché come ottenere testo in grassetto e in corsivo. Consulta una `guida rapida alla sintassi RST <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`__, oppure la `lista completa delle specifiche del linguaggio <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`__.
+L’esempio nella :numref:`Tabella %s <cfr-rst>` illustra come è possibile indicare il titolo del documento e una sezione, nonché come ottenere testo in grassetto e in corsivo. Consulta una `guida rapida alla sintassi RST <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`__, oppure la `lista completa delle specifiche del linguaggio <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`__.
 
-Tabella 1. Confronto fra testo RST e testo interpretato.
+.. _cfr-rst:
 
-+---------------------------------+-----------------------------+
-| **Testo in formato RST**        | **Testo interpretato**      |
-+=================================+=============================+
-| .. code-block:: rst             |                             |
-|                                 |                             |
-|    ***********************      | **Il titolo del documento** |
-|    Il titolo del documento      |                             |
-|    ***********************      | Lorem ipsum...              |
-|                                 |                             |
-|    Lorem ipsum...               |                             |
-|                                 |                             |
-|    Una sezione                  | **Una sezione**             |
-|    ==============               |                             |
-|                                 | Una frase **in grassetto**. |
-|    Una frase **in grassetto**.  |                             |
-|                                 | Una frase *in corsivo*.     |
-|    Una frase *in corsivo*.      |                             |
-|                                 |                             |
-|                                 |                             |
-|                                 |                             |
-|                                 |                             |
-+---------------------------------+-----------------------------+
+.. table:: Confronto fra testo RST e testo interpretato.
+
+   +--------------------------------+-----------------------------+
+   | **Testo in formato RST**       | **Testo interpretato**      |
+   +================================+=============================+
+   | .. code-block:: rst            |                             |
+   |                                |                             |
+   |    ***********************     | **Il titolo del documento** |
+   |    Il titolo del documento     |                             |
+   |    ***********************     | Lorem ipsum...              |
+   |                                |                             |
+   |    Lorem ipsum...              |                             |
+   |                                |                             |
+   |    Una sezione                 | **Una sezione**             |
+   |    ==============              |                             |
+   |                                | Una frase **in grassetto**. |
+   |    Una frase **in grassetto**. |                             |
+   |                                | Una frase *in corsivo*.     |
+   |    Una frase *in corsivo*.     |                             |
+   |                                |                             |
+   |                                |                             |
+   |                                |                             |
+   |                                |                             |
+   +--------------------------------+-----------------------------+
 
 Strumenti utili
 ---------------

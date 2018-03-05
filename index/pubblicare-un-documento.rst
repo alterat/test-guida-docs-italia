@@ -42,27 +42,29 @@ Le Tabelle 2 e 3 illustrano alcuni dei possibili metadati che è possibile speci
 Metadati del publisher
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Tabella 2. Alcuni dei metadati associati al publisher.
+.. _meta-pub:
 
-+-------------------------+------------------------------------------------------------------------------+
-| **Parametro**           | **Descrizione**                                                              |
-+=========================+==============================================================================+
-| name                    | Il nome per esteso dell’Ente associato al publisher                          |
-+-------------------------+------------------------------------------------------------------------------+
-| short-name              | Il nome abbreviato dell’Ente associato al publisher o l’acronimo (opzionale) |
-+-------------------------+------------------------------------------------------------------------------+
-| motto                   | Il motto o una breve frase che contraddistingue l’Ente (opzionale)           |
-+-------------------------+------------------------------------------------------------------------------+
-| description             | Una descrizione estesa delle funzioni e degli scopi dell’Ente                |
-+-------------------------+------------------------------------------------------------------------------+
-| logo                    | L’URL del logo (può essere contenuto nel repository di configurazione)       |
-+-------------------------+------------------------------------------------------------------------------+
-| website                 | L’URL del sito dell’Ente (opzionale)                                         |
-+-------------------------+------------------------------------------------------------------------------+
-| address                 | L’indirizzo della sede dell’Ente (opzionale)                                 |
-+-------------------------+------------------------------------------------------------------------------+
-| github_organization_url | L’URL del repository dell’organizzazione                                     |
-+-------------------------+------------------------------------------------------------------------------+
+.. table:: Alcuni dei metadati associati al publisher.
+
+   +-------------------------+------------------------------------------------------------------------------+
+   | **Parametro**           | **Descrizione**                                                              |
+   +=========================+==============================================================================+
+   | name                    | Il nome per esteso dell’Ente associato al publisher                          |
+   +-------------------------+------------------------------------------------------------------------------+
+   | short-name              | Il nome abbreviato dell’Ente associato al publisher o l’acronimo (opzionale) |
+   +-------------------------+------------------------------------------------------------------------------+
+   | motto                   | Il motto o una breve frase che contraddistingue l’Ente (opzionale)           |
+   +-------------------------+------------------------------------------------------------------------------+
+   | description             | Una descrizione estesa delle funzioni e degli scopi dell’Ente                |
+   +-------------------------+------------------------------------------------------------------------------+
+   | logo                    | L’URL del logo (può essere contenuto nel repository di configurazione)       |
+   +-------------------------+------------------------------------------------------------------------------+
+   | website                 | L’URL del sito dell’Ente (opzionale)                                         |
+   +-------------------------+------------------------------------------------------------------------------+
+   | address                 | L’indirizzo della sede dell’Ente (opzionale)                                 |
+   +-------------------------+------------------------------------------------------------------------------+
+   | github_organization_url | L’URL del repository dell’organizzazione                                     |
+   +-------------------------+------------------------------------------------------------------------------+
 
 +-------------------------------------------------------------------+
 | **Esempio. File publisher_settings.yml tratto dallo Starter kit** |
@@ -100,33 +102,35 @@ Tabella 2. Alcuni dei metadati associati al publisher.
 Metadati dei progetti
 ~~~~~~~~~~~~~~~~~~~~~
 
-Tabella 3. Alcuni dei metadati associati a ciascun progetto.
+.. _meta-prog:
 
-+---------------+------------------------------------------------------------------------------------------------------------------+
-| **Parametro** | **Descrizione**                                                                                                  |
-+===============+==================================================================================================================+
-| title         | Il nome per esteso del progetto                                                                                  |
-+---------------+------------------------------------------------------------------------------------------------------------------+
-| short-title   | Il nome abbreviato del progetto o l’acronimo (opzionale)                                                         |
-+---------------+------------------------------------------------------------------------------------------------------------------+
-| description   | Una descrizione estesa delle funzioni e degli scopi del progetto                                                 |
-+---------------+------------------------------------------------------------------------------------------------------------------+
-| logo          | L’URL del logo (può essere contenuto nel repository di configurazione)                                           |
-+---------------+------------------------------------------------------------------------------------------------------------------+
-| website       | L’URL del sito del progetto (opzionale)                                                                          |
-+---------------+------------------------------------------------------------------------------------------------------------------+
-| start-date    | La data di inizio del progetto (opzionale)                                                                       |
-+---------------+------------------------------------------------------------------------------------------------------------------+
-| end-date      | La data di fine del progetto (opzionale)                                                                         |
-+---------------+------------------------------------------------------------------------------------------------------------------+
-| documents     | La lista dei documenti collegati al progetto, identificati tramite l’URL del repository del documento associato. |
-|               |                                                                                                                  |
-|               | Per ciascun documento, devono essere specificati:                                                                |
-|               |                                                                                                                  |
-|               | -  title: il titolo del documento;                                                                               |
-|               |                                                                                                                  |
-|               | -  repository: il nome del repository che contiene il documento                                                  |
-+---------------+------------------------------------------------------------------------------------------------------------------+
+.. table:: Alcuni dei metadati associati a ciascun progetto.
+
+   +---------------+------------------------------------------------------------------------------------------------------------------+
+   | **Parametro** | **Descrizione**                                                                                                  |
+   +===============+==================================================================================================================+
+   | title         | Il nome per esteso del progetto                                                                                  |
+   +---------------+------------------------------------------------------------------------------------------------------------------+
+   | short-title   | Il nome abbreviato del progetto o l’acronimo (opzionale)                                                         |
+   +---------------+------------------------------------------------------------------------------------------------------------------+
+   | description   | Una descrizione estesa delle funzioni e degli scopi del progetto                                                 |
+   +---------------+------------------------------------------------------------------------------------------------------------------+
+   | logo          | L’URL del logo (può essere contenuto nel repository di configurazione)                                           |
+   +---------------+------------------------------------------------------------------------------------------------------------------+
+   | website       | L’URL del sito del progetto (opzionale)                                                                          |
+   +---------------+------------------------------------------------------------------------------------------------------------------+
+   | start-date    | La data di inizio del progetto (opzionale)                                                                       |
+   +---------------+------------------------------------------------------------------------------------------------------------------+
+   | end-date      | La data di fine del progetto (opzionale)                                                                         |
+   +---------------+------------------------------------------------------------------------------------------------------------------+
+   | documents     | La lista dei documenti collegati al progetto, identificati tramite l’URL del repository del documento associato. |
+   |               |                                                                                                                  |
+   |               | Per ciascun documento, devono essere specificati:                                                                |
+   |               |                                                                                                                  |
+   |               | -  title: il titolo del documento;                                                                               |
+   |               |                                                                                                                  |
+   |               | -  repository: il nome del repository che contiene il documento                                                  |
+   +---------------+------------------------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------+
 | **Esempio. File projects_setting.yml tratto dallo Starter kit** |
@@ -272,9 +276,9 @@ Per quanto riguarda il terzo punto, invece, l’inclusione delle pagine nel docu
 |                                     |
 |    .. toctree::                     |
 |                                     |
-|       \_docs/cap1.rst               |
+|       _docs/cap1.rst                |
 |                                     |
-|       \_docs/cap2.rst               |
+|       _docs/cap2.rst                |
 |                                     |
 |       ...                           |
 +-------------------------------------+
@@ -334,39 +338,41 @@ Il file document_settings.yml specifica i **metadati associati al documento**, i
 
 I metadati facilitano la ricerca delle informazioni da parte degli utenti. In particolare, anche per i documenti è previsto l’uso di **tag tratti da un vocabolario controllato** per permettere l’integrazione fra Docs Italia e il Forum (vedi anche `Repository di configurazione <#repository-di-configurazione>`__).
 
-La Tabella 5 mostra un elenco dei possibili metadati e una loro descrizione. L’esempio successivo mostra il file *document_settings.yml* contenuto nello `Starter kit <#starter-kit>`__.
+La :numref:`Tabella %s <meta-doc>` mostra un elenco dei possibili metadati e una loro descrizione. L’esempio successivo mostra il file *document_settings.yml* contenuto nello `Starter kit <#starter-kit>`__.
 
-Tabella 5. Alcuni dei metadati associati a ciascun documento.
+.. _meta-doc:
 
-+------------------+---------------------------------------------------------------------------------------------------------+
-| **Parametro**    | **Descrizione**                                                                                         |
-+==================+=========================================================================================================+
-| name             | Il nome per esteso del documento                                                                        |
-+------------------+---------------------------------------------------------------------------------------------------------+
-| short-name       | Il nome abbreviato del documento (se presente)                                                          |
-+------------------+---------------------------------------------------------------------------------------------------------+
-| description      | Una descrizione estesa delle funzioni e degli scopi del documento                                       |
-+------------------+---------------------------------------------------------------------------------------------------------+
-| author           | Chi ha creato il documento (account GitHub)                                                             |
-+------------------+---------------------------------------------------------------------------------------------------------+
-| contributors     | Chi ha collaborato alla stesura del testo (nomi e cognomi, se presenti)                                 |
-+------------------+---------------------------------------------------------------------------------------------------------+
-| published        | La data in cui il documento è stato pubblicato per la prima volta                                       |
-+------------------+---------------------------------------------------------------------------------------------------------+
-| expiration       | La data in cui la documentazione diventa obsoleta. Si può usare per marcare i documenti non più validi. |
-+------------------+---------------------------------------------------------------------------------------------------------+
-| id               | Un identificativo univoco della documentazione                                                          |
-+------------------+---------------------------------------------------------------------------------------------------------+
-| license          | Il tipo di licenza associato al documento                                                               |
-+------------------+---------------------------------------------------------------------------------------------------------+
-| origin           | L’URL del documento di partenza                                                                         |
-+------------------+---------------------------------------------------------------------------------------------------------+
-| software-website | L’URL del software a cui la documentazione si riferisce (se applicabile)                                |
-+------------------+---------------------------------------------------------------------------------------------------------+
-| audience         | A chi è rivolto il documento (ad es. cittadini, comuni, software house, ecc)                            |
-+------------------+---------------------------------------------------------------------------------------------------------+
-| type             | Il tipo di documento (ad es. linee guida, documentazione tecnica, leggi, procedure, ecc)                |
-+------------------+---------------------------------------------------------------------------------------------------------+
+.. table:: Alcuni dei metadati associati a ciascun documento.
+
+   +------------------+---------------------------------------------------------------------------------------------------------+
+   | **Parametro**    | **Descrizione**                                                                                         |
+   +==================+=========================================================================================================+
+   | name             | Il nome per esteso del documento                                                                        |
+   +------------------+---------------------------------------------------------------------------------------------------------+
+   | short-name       | Il nome abbreviato del documento (se presente)                                                          |
+   +------------------+---------------------------------------------------------------------------------------------------------+
+   | description      | Una descrizione estesa delle funzioni e degli scopi del documento                                       |
+   +------------------+---------------------------------------------------------------------------------------------------------+
+   | author           | Chi ha creato il documento (account GitHub)                                                             |
+   +------------------+---------------------------------------------------------------------------------------------------------+
+   | contributors     | Chi ha collaborato alla stesura del testo (nomi e cognomi, se presenti)                                 |
+   +------------------+---------------------------------------------------------------------------------------------------------+
+   | published        | La data in cui il documento è stato pubblicato per la prima volta                                       |
+   +------------------+---------------------------------------------------------------------------------------------------------+
+   | expiration       | La data in cui la documentazione diventa obsoleta. Si può usare per marcare i documenti non più validi. |
+   +------------------+---------------------------------------------------------------------------------------------------------+
+   | id               | Un identificativo univoco della documentazione                                                          |
+   +------------------+---------------------------------------------------------------------------------------------------------+
+   | license          | Il tipo di licenza associato al documento                                                               |
+   +------------------+---------------------------------------------------------------------------------------------------------+
+   | origin           | L’URL del documento di partenza                                                                         |
+   +------------------+---------------------------------------------------------------------------------------------------------+
+   | software-website | L’URL del software a cui la documentazione si riferisce (se applicabile)                                |
+   +------------------+---------------------------------------------------------------------------------------------------------+
+   | audience         | A chi è rivolto il documento (ad es. cittadini, comuni, software house, ecc)                            |
+   +------------------+---------------------------------------------------------------------------------------------------------+
+   | type             | Il tipo di documento (ad es. linee guida, documentazione tecnica, leggi, procedure, ecc)                |
+   +------------------+---------------------------------------------------------------------------------------------------------+
 
 +------------------------------------------------------------------+
 | **Esempio. File document_settings.yml tratto dallo Starter kit** |
@@ -447,15 +453,17 @@ Le `procedure da utilizzare <#procedure-di-caricamento-sul-repository-remoto>`__
 Backend di Docs Italia
 ----------------------
 
-Docs Italia possiede una modalità di backend, ovvero una piattaforma accessibile dagli utenti autorizzati dove è possibile eseguire alcune attività di amministrazione avanzata (vedi Figura 8).
+Docs Italia possiede una modalità di backend, ovvero una piattaforma accessibile dagli utenti autorizzati dove è possibile eseguire alcune attività di amministrazione avanzata (vedi :numref:`Figura %s <backend>`).
 
 L’utente può accedere al backend di Docs Italia con il proprio account GitHub.
 
-+---------------------------------------------------------------+
-| |image7|                                                      |
-|                                                               |
-| Figura 8. Il backend di Docs Italia per gestire un documento. |
-+---------------------------------------------------------------+
+.. _backend:
+
+.. figure:: img/backend.png
+   :width: 5.54504in
+   :height: 5.31771in
+
+   Il backend di Docs Italia per gestire un documento. 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Nota.**                                                                                                                                                                                                                           |
@@ -487,13 +495,15 @@ Docs Italia prevede la possibilità di creare un’anteprima dei documenti priva
 
 I documenti privati sono raggiungibili dal publisher usando URL predittivi (ad es. docs.italia.it/<publisher>/test/<nome_repo>). Tali documenti possono essere resi pubblici in un secondo tempo tramite un’apposita impostazione nel backend di Docs Italia.
 
-La Figura 9 mostra com’è possibile impostare un documento privato su Docs Italia.
+La :numref:`Figura %s <privato>` mostra com’è possibile impostare un documento privato su Docs Italia.
 
-+------------------------------------------------------------------------------+
-| |image8|                                                                     |
-|                                                                              |
-| Figura 9. Il backend di Docs Italia permette di impostare documenti privati. |
-+------------------------------------------------------------------------------+
+.. _privato:
+
+.. figure:: img/private.png
+   :width: 3.86458in
+   :height: 4.5702in
+
+   Il backend di Docs Italia permette di impostare documenti privati.
 
 Documenti in lingue multiple
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -516,23 +526,14 @@ Per esempio, un documento in italiano chiamato *anpr-modalitasubentro* potrebbe 
 | -  Clicca sul pulsante **Submit**.                                                                                                     |
 +----------------------------------------------------------------------------------------------------------------------------------------+
 
-La Figura 10 mostra il backend di Docs Italia relativo alla selezione dei documenti di traduzione.
+La :numref:`Figura %s <traduzione>` mostra il backend di Docs Italia relativo alla selezione dei documenti di traduzione.
 
 Per problemi con la creazione di documenti multilingue è possibile contattare gli amministratori di Docs Italia all’indirizzo: `contatti@docs.italia.it <mailto:contatti@docs.italia.it>`__.
 
-+-----------------------------------------------------------------------------------+
-| |image9|                                                                          |
-|                                                                                   |
-| Figura 10. Il backend di Docs Italia permette di impostare documenti multilingue. |
-+-----------------------------------------------------------------------------------+
+.. _traduzione:
 
-.. |image7| image:: img/backend.png
-   :width: 5.54504in
-   :height: 5.31771in
-.. |image8| image:: img/private.png
-   :width: 3.86458in
-   :height: 4.5702in
-.. |image9| image:: img/traduzione.png
+.. figure:: img/traduzione.png
    :width: 5.70313in
    :height: 3.65311in
 
+   Il backend di Docs Italia permette di impostare documenti multilingue.

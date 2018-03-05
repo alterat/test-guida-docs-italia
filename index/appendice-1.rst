@@ -74,13 +74,10 @@ Il documento ha ricevuto parere positivo e viene pubblicato in via ufficiale. Su
 
 Le modifiche intermedie apportate al documento, quando non esplicitamente associate a una versione come descritto sopra, vengono indicate con la generica versione **latest**. In questo caso vengono visualizzate le modifiche più recenti, senza però che il documento abbia valore ufficiale.
 
-+--------------------------------------+
-| **Esempio. Flusso di versionamento** |
-|                                      |
-| |image11|                            |
-+--------------------------------------+
+.. _versionamento:
 
-.. |image11| image:: img/versionamento.png
+.. figure:: img/versionamento.png
    :width: 5.14583in
    :height: 4.53172in
-
+   
+   Esempio di flusso di versionamento.

@@ -28,13 +28,14 @@ L’Ente pubblico può essere associato a un’\ `organizzazione su GitHub <http
 
 L’organizzazione rappresenta una modalità efficiente di raggruppare tutti i progetti digitali di un Ente pubblico. Offre, inoltre, alcuni vantaggi nella gestione dei permessi degli utenti e opzioni di sicurezza e amministrazione avanzate. Anche l’account organizzazione è gratuito e permette un numero illimitato di repository e collaboratori.
 
-La Figura 7 mostra la pagina dell’organizzazione Developers Italia su GitHub. È possibile notare il numero di repository aperti, le persone che collaborano con l’organizzazione e i team.
+La :numref:`Figura %s <developer>` mostra la pagina dell’organizzazione Developers Italia su GitHub. È possibile notare il numero di repository aperti, le persone che collaborano con l’organizzazione e i team.
 
-+---------------------------------------------------------+
-| |image6|                                                |
-|                                                         |
-| Figura 7. L’organizzazione Developers Italia su GitHub. |
-+---------------------------------------------------------+
+.. _developer:
+
+.. figure:: img/organizzazione.png
+   :width: 6.11458in
+   :height: 3.41667in
+
 
 **Se il mio Ente non ha un’organizzazione su GitHub...**
 
@@ -147,7 +148,4 @@ Tuttavia, nel caso in cui siano chiamati a supportare la creazione di un documen
 
 Le attività di pubblicazione utilizzando GitHub e Docs Italia sono a carico dell’organizzazione o dell’utente. In caso di problemi, è possibile chiedere supporto al **servizio assistenza di Docs Italia** all’indirizzo: `contatti@docs.italia.it <mailto:contatti@docs.italia.it>`__.
 
-.. |image6| image:: img/organizzazione.png
-   :width: 6.11458in
-   :height: 3.41667in
 

@@ -15,13 +15,16 @@ Docs Italia nasce con l’obiettivo di cambiare il linguaggio con cui si comunic
 
 Docs Italia permette di gestire la documentazione tecnica di un progetto (ad es. la documentazione di PagoPA), ma anche documenti amministrativi come il `Piano Triennale per l’informatica nella Pubblica Amministrazione <https://pianotriennale-ict.readthedocs.io>`__ e le linee guida (come le `Linee guida di design per i servizi web della PA <https://design-italia.readthedocs.io>`__).
 
-La Figura 1 mostra l’attuale home page di Docs Italia.
+La :numref:`Figura %s <hp>` mostra l’attuale home page di Docs Italia.
 
-+----------------------------------------+
-| |image0|                               |
-|                                        |
-| Figura 1. La home page di Docs Italia. |
-+----------------------------------------+
+.. _hp:
+
+.. figure:: img/hp.png
+   :width: 6.11458in
+   :height: 3.82813in
+
+   La home page di Docs Italia.
+
 
 Caratteristiche
 ---------------
@@ -64,26 +67,30 @@ Architettura dell’informazione
 ------------------------------
 
 
-Pagina publisher
-~~~~~~~~~~~~~~~~
-
-Da aggiungere successivamente.
-
-Pagina progetto
-~~~~~~~~~~~~~~~
-
-La Figura 2 mostra un esempio di pagina progetto. Vengono visualizzati tutti i documenti associati e una descrizione del progetto e dei suoi scopi.
-
-+-----------------------------------------------+
-| |image1|                                      |
-|                                               |
-| Figura 2. Una pagina progetto su Docs Italia. |
-+-----------------------------------------------+
+.. Pagina publisher
+.. ~~~~~~~~~~~~~~~~
+.. 
+.. 
+.. Pagina progetto
+.. ~~~~~~~~~~~~~~~
+.. 
+.. La :numref:`Figura %s <progetto>` mostra un esempio di pagina progetto. Vengono visualizzati tutti i documenti associati e una descrizione del progetto e dei suoi scopi.
+.. 
+.. 
+.. 
+..
+.. .. _progetto:
+.. 
+.. .. figure:: img/progetto.png
+..    :width: 6.11458in
+..    :height: 5.47222in
+.. 
+..    Una pagina progetto su Docs Italia.
 
 Pagina documento
 ~~~~~~~~~~~~~~~~
 
-Ciascun documento ha le seguenti caratteristiche (vedi Figura 3):
+Ciascun documento ha le seguenti caratteristiche (vedi :numref:`Figura %s <pagina-doc>`):
 
 1. È sempre possibile scegliere la versione del documento tramite un apposito pulsante;
 
@@ -95,37 +102,45 @@ Ciascun documento ha le seguenti caratteristiche (vedi Figura 3):
 
 5. Il pulsante “modifica su GitHub” permette di accedere al repository su GitHub dove è ospitato il documento e consente a chiunque di proporre delle modifiche al contenuto.
 
-+--------------------------------+
-| |image2|                       |
-|                                |
-| Figura 3. Una pagina documento |
-+--------------------------------+
+.. _pagina-doc:
+
+.. figure:: img/pagina-doc.png
+   :width: 6.11458in
+   :height: 4.90278in
+
+   Una pagina documento su Docs Italia.
 
 Oltre a queste caratteristiche,
 
--  L’ambiente di Docs Italia è *responsive*, ovvero consente una perfetta fruizione dei documenti su tutti i dispositivi, compreso lo smartphone (vedi Figura 4);
+-  L’ambiente di Docs Italia è *responsive*, ovvero consente una perfetta fruizione dei documenti su tutti i dispositivi, compreso lo smartphone (vedi :numref:`Figura %s <responsive>`);
 
--  Le àncore in corrispondenza dei capitoli consentono di ottenere facilmente il link di un paragrafo (vedi Figura 5);
+-  Le àncore in corrispondenza dei capitoli consentono di ottenere facilmente il link di un paragrafo (vedi :numref:`Figura %s <ancora>`);
 
--  Le funzionalità dei box colorati e delle note permettono di segnalare informazioni importanti, esempi, casi di studio e interpretazioni del testo (vedi Figura 6).
+-  Le funzionalità dei box colorati e delle note permettono di segnalare informazioni importanti, esempi, casi di studio e interpretazioni del testo (vedi :numref:`Figura %s <box>`).
 
-+--------------------------------------------------------------+
-| |image3|                                                     |
-|                                                              |
-| Figura 4. Ambiente responsive della piattaforma Docs Italia. |
-+--------------------------------------------------------------+
+.. _responsive:
 
-+--------------------------------------------------+
-| |image4|                                         |
-|                                                  |
-| Figura 5. Àncora in corrispondenza di un titolo. |
-+--------------------------------------------------+
+.. figure:: img/responsive.png
+   :width: 1.78493in
+   :height: 3.59896in
 
-+---------------------------------------------------+
-| |image5|                                          |
-|                                                   |
-| Figura 6. Box e note in una pagina del documento. |
-+---------------------------------------------------+
+   Ambiente *responsive* della piattaforma Docs Italia.
+
+.. _ancora:
+
+.. figure:: img/ancora.png
+   :width: 6.11458in
+   :height: 1.97222in
+
+   Àncora in corrispondenza di un titolo.
+
+.. _box:
+
+.. figure:: img/box.png
+   :width: 6.11458in
+   :height: 3.25in
+
+   Box e note in una pagina del documento. 
 
 La piattaforma
 ~~~~~~~~~~~~~~
@@ -135,24 +150,4 @@ La piattaforma
 -  Docs Italia si presta a una ottimizzazione SEO, facilitando la ricerca dei documenti pubblici anche attraverso i motori di ricerca.
 
 -  Docs Italia è integrato con `Forum Italia <http://forum.italia.it>`__ (a sua volta basato sul progetto open source `Discourse <https://discourse.org/>`__) per consentire di commentare i documenti.
-
-
-.. |image0| image:: img/hp.png
-   :width: 6.11458in
-   :height: 3.82813in
-.. |image1| image:: img/progetto.png
-   :width: 6.11458in
-   :height: 5.47222in
-.. |image2| image:: img/pagina-doc.png
-   :width: 6.11458in
-   :height: 4.90278in
-.. |image3| image:: img/responsive.png
-   :width: 1.78493in
-   :height: 3.59896in
-.. |image4| image:: img/ancora.png
-   :width: 6.11458in
-   :height: 1.97222in
-.. |image5| image:: img/box.png
-   :width: 6.11458in
-   :height: 3.25in
 

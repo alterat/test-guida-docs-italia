@@ -25,13 +25,14 @@ Divulgazione su Forum Italia
 
 È possibile dare visibilità ai nuovi documenti utilizzando `Forum Italia <https://forum.italia.it/>`__, il forum di discussione sui progetti digitali della Pubblica Amministrazione. Per farlo, basta andare su Forum Italia e aprire un topic (è richiesta la registrazione) in corrispondenza del Progetto cui fa riferimento il documento.
 
-La Figura 11 mostra l’annuncio su Forum Italia relativo alla pubblicazione del Codice dell’amministrazione digitale.
+La :numref:`Figura %s <annuncio>` mostra l’annuncio su Forum Italia relativo alla pubblicazione del Codice dell’amministrazione digitale.
 
-+------------------------------------------------+
-| |image10|                                      |
-|                                                |
-| Figura 11. Annuncio di un documento sul Forum. |
-+------------------------------------------------+
+.. _annuncio:
+
+.. figure:: img/post-forum.png
+   :width: 6.11458in
+   :height: 2.83333in
+
 
 Se il documento non è associato ad alcun Progetto, è possibile usare la categoria `Community & Altro <https://forum.italia.it/c/community-feedback>`__.
 
@@ -69,7 +70,4 @@ Le *pull requests* servono invece per proporre direttamente delle modifiche che,
 Questi strumenti permettono agli utenti di segnalare eventuali errori e possibili correzioni, garantendo quindi un alto standard di qualità per la documentazione.
 
 
-.. |image10| image:: img/post-forum.png
-   :width: 6.11458in
-   :height: 2.83333in
 
