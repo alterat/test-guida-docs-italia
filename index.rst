@@ -79,7 +79,7 @@ Pagina progetto
 La Figura 2 mostra un esempio di pagina progetto. Vengono visualizzati tutti i documenti associati e una descrizione del progetto e dei suoi scopi.
 
 +-----------------------------------------------+
-| |Schermata 2017-11-13 alle 23.03.55.png|      |
+| |image1|                                      |
 |                                               |
 | Figura 2. Una pagina progetto su Docs Italia. |
 +-----------------------------------------------+
@@ -1265,7 +1265,7 @@ Tutte le figure e le immagini devono essere seguite da opportune didascalie, cen
 +----------------------------------------------------------+
 | **Esempio di figure / immagini in Docs Italia**          |
 |                                                          |
-| |Systema:Users:Lcd:Desktop:TEAM-DIGITALE_logo.png|       |
+| |image12|                                                |
 |                                                          |
 | Figura 12. Logo del Team per la Trasformazione Digitale. |
 +----------------------------------------------------------+
@@ -1418,51 +1418,51 @@ Se il commit risolve una o più issue, è obbligatorio indicarne il numero all�
 .. [1]
    GOV.UK, nelle proprie linee guida, sconsiglia l’uso delle FAQ: https://www.gov.uk/guidance/content-design/writing-for-gov-uk#dont-use-faqs
 
-.. |image0| image:: media/image30.png
+.. |image0| image:: index/img/hp.png
    :width: 6.11458in
    :height: 3.82813in
-.. |Schermata 2017-11-13 alle 23.03.55.png| image:: media/image25.png
+.. |image1| image:: index/img/progetto.png
    :width: 6.11458in
    :height: 5.47222in
-.. |image2| image:: media/image24.png
+.. |image2| image:: index/img/pagina-doc.png
    :width: 6.11458in
    :height: 4.90278in
-.. |image3| image:: media/image14.png
+.. |image3| image:: index/img/responsive.png
    :width: 1.78493in
    :height: 3.59896in
-.. |image4| image:: media/image31.png
+.. |image4| image:: index/img/ancora.png
    :width: 6.11458in
    :height: 1.97222in
-.. |image5| image:: media/image23.png
+.. |image5| image:: index/img/box.png
    :width: 6.11458in
    :height: 3.25in
-.. |image6| image:: media/image15.png
+.. |image6| image:: index/img/organizzazione.png
    :width: 6.11458in
    :height: 3.41667in
-.. |image7| image:: media/image28.png
+.. |image7| image:: index/img/backend.png
    :width: 5.54504in
    :height: 5.31771in
-.. |image8| image:: media/image20.png
+.. |image8| image:: index/img/private.png
    :width: 3.86458in
    :height: 4.5702in
-.. |image9| image:: media/image17.png
+.. |image9| image:: index/img/traduzione.png
    :width: 5.70313in
    :height: 3.65311in
-.. |image10| image:: media/image29.png
+.. |image10| image:: index/img/post-forum.png
    :width: 6.11458in
    :height: 2.83333in
-.. |image11| image:: media/image32.png
+.. |image11| image:: index/img/versionamento.png
    :width: 5.14583in
    :height: 4.53172in
-.. |Systema:Users:Lcd:Desktop:TEAM-DIGITALE_logo.png| image:: media/image22.png
+.. |image12| image:: index/img/logo.png
    :width: 6.11458in
    :height: 1.31944in
-.. |image13| image:: media/image33.png
+.. |image13| image:: index/img/upload.png
    :width: 3.74479in
    :height: 0.36363in
-.. |image14| image:: media/image26.png
+.. |image14| image:: index/img/commit.png
    :width: 5.14618in
    :height: 3.50521in
-.. |image15| image:: media/image21.png
+.. |image15| image:: index/img/clone.png
    :width: 3.50521in
    :height: 1.52868in
