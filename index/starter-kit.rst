@@ -3,7 +3,7 @@
 Starter kit
 ===========
 
-Prima di cominciare la lettura di questa guida, `scarica lo Starter kit <https://github.com/atorin/starter-kit-docs-italia>`__.
+Prima di cominciare la lettura di questa guida, `scarica lo Starter kit <https://github.com/italia/docs-italia-starter-kit>`__.
 
 Per agevolare la creazione dei documenti, infatti, Docs Italia ha predisposto un kit contenente tutti i file necessari. Al suo interno, troverai:
 
