@@ -22,6 +22,7 @@ La :numref:`Figura %s <hp>` mostra l’attuale home page di Docs Italia.
 .. figure:: img/hp.png
    :width: 6.11458in
    :height: 3.82813in
+   :align: center
 
    La home page di Docs Italia.
 
@@ -125,6 +126,7 @@ Oltre a queste caratteristiche,
 .. figure:: img/responsive.png
    :width: 1.78493in
    :height: 3.59896in
+   :align: center
 
    Ambiente *responsive* della piattaforma Docs Italia.
 
